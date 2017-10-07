@@ -172,7 +172,7 @@ constructor(props){
 
     handleSubmit(event) {
     event.preventDefault();
-    this.props.onAddinPost(this.state);
+    this.props.onAddInPost(this.state);
     this.setState({
      opportunityName:'',
     durationDate:'',
