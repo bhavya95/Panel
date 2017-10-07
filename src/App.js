@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 
 import './App.css';
 
-  var addpost ={    opportunityName:'',
+  var addpost =[   {opportunityName:'',
     durationDate:'',
     durationDate1:'',
     lastDate:'',
     description:'',
-    link:''}
+    link:''}]
 
 class App extends Component {
 
